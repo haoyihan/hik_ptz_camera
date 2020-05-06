@@ -1,0 +1,15 @@
+
+### Cfg Tyes to obtain.
+uint32 DVR_CCDPARAMCFG_EX         = 0
+uint32 DVR_ISP_CAMERAPARAMCFG     = 1     
+uint32 DVR_WDR                    = 2
+uint32 DVR_FOCUS                  = 3
+
+uint32 type #  type
+
+---
+uint32 param_1
+uint32 param_2
+string description
+bool success          # True if the call succeeded
+string status_message # Used to give details about success

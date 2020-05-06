@@ -1,0 +1,18 @@
+### service to query focus status.
+
+
+---
+int32 FocusMode
+int32 AutoFocusMode
+int32 MinFocusDistance
+int32 ZoomSpeedLevel
+int32 FocusSpeedLevel
+float32 OpticalZoom
+int32 DigtitalZoom
+int32 OpticalZoomLevel
+
+int32 FocusPos
+int32 FocusDefinitionDisplay
+int32 FocusSensitivity
+int32 RelativeFocusPos
+
